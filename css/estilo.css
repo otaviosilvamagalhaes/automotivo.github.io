@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+h1{
+    text-align: center;
+}
+
 .nav-link:hover {
     color: #000 !important;
     letter-spacing: 2px !important;
@@ -32,6 +36,110 @@ html{
 }
 
 .table img{
-    width: 100%;
-    height: 400px;
+    width: 50%;
+    height: 600px;
+}
+
+.tabela {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #4F4F4F;
+}
+
+Video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.form {
+    color: black !important;
+}
+
+#emailHelp{
+    color: black !important;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form-group{
+    color: black !important;
+    font-size: 25px;
+}
+
+@media (min-width: 200px) {
+    .carrousel{
+        margin-top: 18%;
+    }
+  }
+
+  @media (min-width: 280px) {
+    .carrousel{
+        margin-top: 15%;
+    }
+  }
+
+  @media (min-width: 370px) {
+    .carrousel{
+        margin-top: 13%;
+    }
+  }
+
+@media (min-width: 430px) {
+    .carrousel{
+        margin-top: 10%;
+    }
+  }
+
+@media (min-width: 560px) {
+    .carrousel{
+        margin-top: 7%;
+    }
+  }
+
+  @media (min-width: 807px) {
+    .carrousel{
+        margin-top: 5%;
+    }
+  }
+
+@media (min-width: 1000px) {
+    .carrousel{
+        margin-top: 5%;
+    }
+  }
+
+@media (max-width:1200px) {
+    .table img{
+        width: 100%;
+        height: 600px;
+    }
+    .videos{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe{
+       width: 325px;
+       height: 250px;   
+    }
+}
+
+@media (min-width: 1200px) {
+    .carrousel{
+        margin-top: 3%;
+    }
 }
